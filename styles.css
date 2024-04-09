@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        /* CSS Styles */
+        /* Header Styling */
+        .header {
+            background-color: #333; /* Dark gray background */
+            padding: 20px; /* Add padding for style */
+            color: #fff; /* White text color for contrast */
+            text-align: center; /* Center text */
+        }
+
+        /* Introduction Section */
+        .introduction {
+            background-color: #f4f4f4; /* Light gray background */
+            margin-top: 20px; /* Set margin for spacing below header */
+            padding: 20px; /* Add padding for style */
+            text-align: center; /* Center text */
+        }
+
+        /* Skills Display */
+        .skills {
+            border: 1px solid #ccc; /* Add border for list items */
+            padding: 10px; /* Add padding for style */
+            margin-top: 20px; /* Set margin for spacing */
+            text-align: center; /* Center text */
+        }
+
+        .skills li {
+            margin-bottom: 5px; /* Adjust margin between skills */
+        }
+
+        /* Contact Information */
+        .contact {
+            background-color: #007bff; /* Blue background */
+            color: #fff; /* White text color for contrast */
+            padding: 20px; /* Add padding for clarity */
+            margin-top: 20px; /* Set margin for spacing */
+            text-align: center; /* Center text */
+        }
+
+        /* Responsive Design */
+        @media only screen and (max-width: 768px) {
+            /* Adjust margins and padding for smaller screens */
+            .header, .introduction, .skills, .contact {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Clemence Kyende</h1>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="introduction">
+        <p>Hello, I'm Clemence Kyende. I am passionate about communication and software development. I believe in the power of technology to connect people and drive positive change. With strong communication skills and a knack for problem-solving, I enjoy creating impactful software solutions that make a difference in people's lives.</p>
+    </div>
+
+    <!-- Skills Display -->
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming languages ( Python, JavaScript, Java)</li>
+            <li>Web development (HTML/CSS)</li>
+            <li>Mobile app development (iOS, Android)</li>
+            <li>Database management (SQL)</li>
+            <li>Version control (Git, GitHub)</li>
+            <li>Problem-solving and debugging skills</li>
+            <li>Effective communication and collaboration within development teams</li>
+            <li>Client communication and requirements gathering</li>
+            <li>Writing clear and concise documentation</li>
+        </ul>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: mwendeclemence@gmail.com</p>
+        <p>Social Media: <a href="https://www.linkedin.com/in/clemence-mwende-ba231b1b9">LinkedIn</a></p>
+    </div>
+</body>
+</html>
